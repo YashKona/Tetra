@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "593667692699",
+    "project_id": "tetra-56e80",
+    "storage_bucket": "tetra-56e80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:593667692699:android:9abbb6e8d6178914e50e3e",
+        "android_client_info": {
+          "package_name": "com.example.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "593667692699-33k9drva71tr164574e7hkk5p91hte8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9npAMvdy92aj4-DQeloLGxTxqjp0QRnM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "593667692699-33k9drva71tr164574e7hkk5p91hte8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

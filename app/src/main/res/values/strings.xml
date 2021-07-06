@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="Start">Start</string>
+    <string name="CreateQuiz">Create Quiz</string>
+    <string name="Exit">Exit</string>
+    <string name="todo">TODO</string>
+    <string name="back">Back</string>
+    <string name="Kamar">Kamar</string>
+    <string name="question">Questions: 1/n</string>
+    <string name="score_0">Score: 0</string>
+    <string name="_00_20">Time: 00:20</string>
+    <string name="option1">Option1</string>
+    <string name="option2">Option2</string>
+    <string name="option3">Option3</string>
+    <string name="next">Next</string>
+    <string name="Question">Questions go here:</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_email">Enter your email</string>
+    <string name="already_have_an_account">Already have an account</string>
+    <string name="log_in_to_account">Log in to account</string>
+    <string name="login">login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="create_an_account">Create an account?</string>
+    <string name="create_an_accbtn">Create an account</string>
+    <string name="signout_page">Signout Page</string>
+    <string name="sign_out">Sign out</string>
+</resources>
