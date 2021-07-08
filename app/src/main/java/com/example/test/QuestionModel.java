@@ -1,5 +1,5 @@
 package com.example.test;
-
+//New Class, with strings
 public class QuestionModel {
     private String question, option1, option2, option3;
     private int correctAnsNo;

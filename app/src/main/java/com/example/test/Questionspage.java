@@ -18,6 +18,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Questionspage extends AppCompatActivity {
+//getting information from list, setting the strings
     private List<QuestionModel> questionsList;
 
     private QuestionModel currentQuestion;
@@ -39,6 +40,7 @@ public class Questionspage extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+//        getting the ids ang giving variable
         setContentView(R.layout.activity_questionpage);
         questionsList = new ArrayList<>();
         tvQuestion = findViewById(R.id.textQuestion);
@@ -58,18 +60,21 @@ public class Questionspage extends AppCompatActivity {
         addQuestions();
         totalQuestions = questionsList.size();
         showNextQuestion();
-
+//on click listener is where when clicked the following fuctions run
         btnNext.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //if answer is not false
                 if (answered == false){
+                    // select radio buttons and stop timer
                     if (rb1.isChecked() || rb2.isChecked() || rb3.isChecked()){
                         checkAnswer();
                         countDownTimer.cancel();
-
+//otherwise make a new error using toast
                     }else {
                         Toast.makeText(Questionspage.this, "Please Select an option", Toast.LENGTH_SHORT).show();
                     }
+
                 }else {
                     showNextQuestion();
                 }
@@ -81,11 +86,14 @@ public class Questionspage extends AppCompatActivity {
     }
 
     private void checkAnswer() {
+        //if answer is true
         answered = true;
         RadioButton rbSelected = findViewById(radioGroup.getCheckedRadioButtonId());
         int answerNo = radioGroup.indexOfChild(rbSelected) + 1;
         if (answerNo == currentQuestion.getCorrectAnsNo()){
+            //add one to score
             score++;
+            // display score
             tvScore.setText("Score: "+score);
 
 
