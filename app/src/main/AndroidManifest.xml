@@ -16,11 +16,11 @@
 
         <activity android:name=".Resetpasswordpage"/>
         <activity android:name=".Signoutpage" />
-        <activity android:name=".Loginpage" />
+        <activity android:name=".Homepage" />
         <activity android:name=".Signuppage" />
         <activity android:name=".Kamar" />
         <activity android:name=".Questionspage" />
-        <activity android:name=".Homepage"
+        <activity android:name=".Loginpage"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
