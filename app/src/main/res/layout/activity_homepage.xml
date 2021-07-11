@@ -91,10 +91,10 @@
         tools:ignore="UsingOnClickInXml"
         />
     <Button
-        android:id="@+id/login"
+        android:id="@+id/signoutBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/login"
+        android:text="@string/sign_out"
         android:onClick="loginpage"
         tools:ignore="UsingOnClickInXml"
         app:layout_constraintBottom_toBottomOf="parent"

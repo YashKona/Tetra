@@ -75,7 +75,7 @@ public class Loginpage extends AppCompatActivity {
                                 public void onComplete(@NonNull Task<AuthResult> task) {
                                     if (task.isSuccessful()){
                                         Toast.makeText(Loginpage.this, "Log in Successful", Toast.LENGTH_SHORT).show();
-                                        Intent signoutintent = new Intent(Loginpage.this, Signoutpage.class);
+                                        Intent signoutintent = new Intent(Loginpage.this, Homepage.class);
                                         startActivity(signoutintent);
                                     }
                                     else {

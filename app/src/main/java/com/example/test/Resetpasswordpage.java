@@ -57,4 +57,8 @@ public class Resetpasswordpage extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }

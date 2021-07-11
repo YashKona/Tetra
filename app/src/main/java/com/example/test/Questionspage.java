@@ -84,6 +84,10 @@ public class Questionspage extends AppCompatActivity {
 
 
     }
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 
     private void checkAnswer() {
         //if answer is true
@@ -172,6 +176,7 @@ public class Questionspage extends AppCompatActivity {
         startActivity(intent);
 
     }
+
 
 
 

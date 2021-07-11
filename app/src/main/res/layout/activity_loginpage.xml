@@ -4,11 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Loginpage">
+    tools:context=".Loginpage"
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/mainscreen"
+        >
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -24,7 +27,8 @@
             android:layout_marginTop="60dp"
             android:layout_marginEnd="20dp"
             android:hint="@string/enter_email"
-            android:inputType="textEmailAddress"/>
+            android:inputType="textEmailAddress"
+            android:textStyle="bold"/>
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -33,7 +37,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginEnd="20dp"
             android:hint="@string/enter_password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/loginBtn"
             android:layout_width="match_parent"
@@ -51,14 +56,16 @@
             android:layout_marginTop="5dp"
             android:layout_marginEnd="20dp"
             android:layout_marginStart="20dp"
-            android:textSize="17sp"/>
+            android:textSize="17sp"
+            android:textStyle="bold"/>
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/create_an_account"
             android:layout_gravity="center"
             android:layout_marginTop="120dp"
-            android:textSize="20sp"/>
+            android:textSize="20sp"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/signupBtn"
             android:layout_width="match_parent"

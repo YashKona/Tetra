@@ -19,4 +19,8 @@ public class Kamar extends AppCompatActivity {
         webView.loadUrl("https://kamarportal.mrgs.school.nz/index.php");
 
     }
+    @Override
+    public void onBackPressed() {
+        finish();
+    }
 }
