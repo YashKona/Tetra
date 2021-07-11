@@ -11,7 +11,7 @@ public class QuestionModel {
         this.option3 = option3;
         this.correctAnsNo = correctAnsNo;
     }
-
+//gather and setter
     public String getQuestion() {
         return question;
     }

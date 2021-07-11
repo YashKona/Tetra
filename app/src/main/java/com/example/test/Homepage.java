@@ -28,7 +28,6 @@ public class Homepage extends AppCompatActivity {
                 mAuth.signOut();
                 //open loginpage
                 startActivity(new Intent(Homepage.this,Loginpage.class));
-
             }
         });
     }
@@ -37,34 +36,29 @@ public class Homepage extends AppCompatActivity {
         //open questionpage
         Intent intent = new Intent(this, Questionspage.class);
         startActivity(intent);
-
     }
     public void Kamar(View view) {
         //open kamar file
         Intent intent = new Intent(this, Kamar.class);
         startActivity(intent);
-
     }
     public void loginpage(View view) {
         //open signuppage
         Intent intent = new Intent(this, Signuppage.class);
         startActivity(intent);
-
     }
     public void exit(View view) {
+        //launch exit
         exit();
     }
-
     private void exit() {
         exit = findViewById(R.id.Exit);
+        //close the app
         System.exit(0);
     }
-
-
     @Override
     public void onBackPressed() {
+        //finish activity
         finish();
     }
-
-
 }
