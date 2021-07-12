@@ -47,6 +47,7 @@ public class Resetpasswordpage extends AppCompatActivity {
                                         Toast.makeText(Resetpasswordpage.this, "Email Sent", Toast.LENGTH_SHORT).show();
                                         Intent resetpasswordintent = new Intent(Resetpasswordpage.this, Homepage.class);
                                         startActivity(resetpasswordintent);
+                                        //close activity when done
                                         finish();
                                     } else {
                                         //otherwise create new toast (error)

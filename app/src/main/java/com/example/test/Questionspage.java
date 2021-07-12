@@ -152,11 +152,11 @@ public class Questionspage extends AppCompatActivity {
 
     private void addQuestions() {
         //questions, shows the question, options and the correct answer represented by the number
-        questionsList.add(new QuestionModel("A is Correct","A","B","C",1));
-        questionsList.add(new QuestionModel("B is Correct","A","B","C",2));
-        questionsList.add(new QuestionModel("C is Correct","A","B","C",3));
-        questionsList.add(new QuestionModel("A is Correct","A","B","C",1));
-        questionsList.add(new QuestionModel("B is Correct","A","B","C",2));
+        questionsList.add(new QuestionModel("Which functional group has OH","Alcohol","Alkane","Aldehyde",1));
+        questionsList.add(new QuestionModel("How many carbons does Butane have?","7","2","4",3));
+        questionsList.add(new QuestionModel("What ions are acids made of?","Hydroxyl","Hydrogen","Hydroxy",2));
+        questionsList.add(new QuestionModel("Which of these is a noble gas?","Argon","Nitrogen","Oxygen",1));
+        questionsList.add(new QuestionModel("What is the highest pH?","7","20","14",3));
     }
     public void homepage (View view){
         //open homepage

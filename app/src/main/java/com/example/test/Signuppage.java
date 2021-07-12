@@ -64,6 +64,8 @@ public class Signuppage extends AppCompatActivity {
                                     if(task.isSuccessful()){
                                         Toast.makeText(Signuppage.this, "Account Created Successfully", Toast.LENGTH_SHORT).show();
                                         startActivity(new Intent(Signuppage.this, Homepage.class));
+                                        //close activity when done
+                                        finish();
                                     }
                                     else {
                                         //otherwise create new error(toast)

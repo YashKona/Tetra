@@ -76,6 +76,8 @@ public class Loginpage extends AppCompatActivity {
                                         //open homepage
                                         Intent signoutintent = new Intent(Loginpage.this, Homepage.class);
                                         startActivity(signoutintent);
+                                        //finish or close the page
+                                        finish();
                                     }
                                     else {
                                         //if task didnt go properly make new toast
