@@ -9,7 +9,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:background="@drawable/mainscreen">
 
         <TextView
             android:layout_width="wrap_content"
@@ -17,7 +18,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
             android:text="@string/sign_up"
-            android:textSize="40sp" />
+            android:textSize="40sp"
+            android:textColor="@color/white" />
 
         <EditText
             android:id="@+id/name"
@@ -26,7 +28,10 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:layout_marginTop="50dp"
-            android:hint="@string/enter_your_name"/>
+            android:hint="@string/enter_your_name"
+            app:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -35,7 +40,10 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:hint="@string/enter_your_email"
-            android:inputType="textEmailAddress"/>
+            android:inputType="textEmailAddress"
+            app:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
         <EditText
             android:id="@+id/password"
             android:layout_width="match_parent"
@@ -44,7 +52,10 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:hint="@string/enter_password"
-            android:inputType="textPassword"/>
+            android:inputType="textPassword"
+            app:backgroundTint="@color/white"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"/>
         <Button
             android:id="@+id/signupBtn"
             android:layout_width="match_parent"
@@ -60,7 +71,8 @@
             android:text="@string/already_have_an_account"
             android:layout_marginTop="110dp"
             android:layout_gravity="center"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
         <Button
             android:id="@+id/loginBtn"
             android:layout_width="match_parent"
