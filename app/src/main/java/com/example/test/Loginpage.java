@@ -62,7 +62,7 @@ public class Loginpage extends AppCompatActivity {
                 String password = passwordText.getText().toString();
                 //if email or password is empty, make new error(toast)
                 if (TextUtils.isEmpty(email) || TextUtils.isEmpty(password)){
-                    Toast.makeText(Loginpage.this, "Enter every details", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Loginpage.this, "Fill in all information", Toast.LENGTH_SHORT).show();
                 }
                 //if filled in
                 else {

@@ -48,11 +48,11 @@ public class Signuppage extends AppCompatActivity {
                 String password = passwordText.getText().toString();
                 //if email is empty or name or password create a new error(toast)
                 if(TextUtils.isEmpty(email) || TextUtils.isEmpty(name) || TextUtils.isEmpty(password)){
-                    Toast.makeText(Signuppage.this, "Enter every detail", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Signuppage.this, "Please fill in all details", Toast.LENGTH_SHORT).show();
                 }
                 else if(password.length() < 6){
                     //if password isnt over 6 digits create new error
-                    Toast.makeText(Signuppage.this, "Password must be 6 characters", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Signuppage.this, "Password must be atleast 6 characters", Toast.LENGTH_SHORT).show();
                 }
                 else {
                     //otherwise  create user

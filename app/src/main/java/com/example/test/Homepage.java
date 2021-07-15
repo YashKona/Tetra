@@ -42,6 +42,11 @@ public class Homepage extends AppCompatActivity {
         Intent intent = new Intent(this, Kamar.class);
         startActivity(intent);
     }
+    public void Nzqa(View view) {
+        //open nzqa file
+        Intent intent = new Intent(this, Nzqa.class);
+        startActivity(intent);
+    }
     public void loginpage(View view) {
         //open signuppage
         Intent intent = new Intent(this, Signuppage.class);

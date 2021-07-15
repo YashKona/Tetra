@@ -28,4 +28,6 @@
     <string name="create_an_accbtn">Create an account</string>
     <string name="signout_page">Signout Page</string>
     <string name="sign_out">Sign out</string>
+    <string name="nzqa">Nzqa</string>
+    <string name="new_user">New User?</string>
 </resources>

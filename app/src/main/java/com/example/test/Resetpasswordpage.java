@@ -45,7 +45,7 @@ public class Resetpasswordpage extends AppCompatActivity {
                                     //if task works, create new toast and send email reset link and start homepage
                                     if (task.isSuccessful()) {
                                         Toast.makeText(Resetpasswordpage.this, "Email Sent", Toast.LENGTH_SHORT).show();
-                                        Intent resetpasswordintent = new Intent(Resetpasswordpage.this, Homepage.class);
+                                        Intent resetpasswordintent = new Intent(Resetpasswordpage.this, Loginpage.class);
                                         startActivity(resetpasswordintent);
                                         //close activity when done
                                         finish();
