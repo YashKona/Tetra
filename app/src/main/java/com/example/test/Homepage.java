@@ -28,11 +28,12 @@ public class Homepage extends AppCompatActivity {
                 mAuth.signOut();
                 //open loginpage
                 startActivity(new Intent(Homepage.this,Loginpage.class));
+                finish();
             }
         });
     }
 
-    public void activity2(View view) {
+    public void Question(View view) {
         //open questionpage
         Intent intent = new Intent(this, Questionspage.class);
         startActivity(intent);

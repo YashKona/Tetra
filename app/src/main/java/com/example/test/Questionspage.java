@@ -162,6 +162,7 @@ public class Questionspage extends AppCompatActivity {
         //open homepage
         Intent intent = new Intent(this, Homepage.class);
         startActivity(intent);
+        finish();
     }
 
 

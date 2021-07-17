@@ -19,7 +19,7 @@
         android:layout_marginEnd="156dp"
         android:layout_marginRight="156dp"
         android:gravity="center"
-        android:onClick="activity2"
+        android:onClick="Question"
         android:text="@string/Start"
         android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"

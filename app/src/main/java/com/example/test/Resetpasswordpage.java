@@ -35,7 +35,7 @@ public class Resetpasswordpage extends AppCompatActivity {
                 String email = emailText.getText().toString();
                 // if email is empty create new error (enter new details)
                 if (TextUtils.isEmpty(email)) {
-                    Toast.makeText(Resetpasswordpage.this, "Enter every details", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(Resetpasswordpage.this, "Fill in Email", Toast.LENGTH_SHORT).show();
                 } else {
                     //if every detail is entered
                     mAuth.sendPasswordResetEmail(emailText.getText().toString())

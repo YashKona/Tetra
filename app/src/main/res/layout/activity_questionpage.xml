@@ -11,9 +11,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="16dp"
-
-        >
+        android:padding="16dp">
 
         <TextView
             android:id="@+id/textQuestionNo"
@@ -78,7 +76,6 @@
                 android:layout_width="236dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="95dp"
-
                 android:layout_marginLeft="95dp"
                 android:layout_marginTop="195dp"
                 android:text="@string/option1"
