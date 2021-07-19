@@ -55,13 +55,9 @@ public class Homepage extends AppCompatActivity {
     }
     public void exit(View view) {
         //launch exit
-        exit();
-    }
-    private void exit() {
-        exit = findViewById(R.id.Exit);
-        //close the app
         System.exit(0);
     }
+
     @Override
     public void onBackPressed() {
         //finish activity
