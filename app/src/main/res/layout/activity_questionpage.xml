@@ -6,8 +6,6 @@
     android:orientation="vertical"
     android:background="@drawable/questionpage">
 
-
-
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -123,9 +121,5 @@
             android:src="@drawable/back"
             android:onClick="homepage"
             tools:ignore="UsingOnClickInXml"/>
-
-
     </RelativeLayout>
-
-
 </LinearLayout>
