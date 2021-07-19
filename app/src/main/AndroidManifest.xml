@@ -10,16 +10,20 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Test"
-        android:label="Tetra"
+        android:label="Tetra">
 
-        >
-
-        <activity android:name=".Resetpasswordpage"/>
-        <activity android:name=".Nzqa" />
-        <activity android:name=".Homepage" />
-        <activity android:name=".Signuppage" />
-        <activity android:name=".Kamar" />
-        <activity android:name=".Questionspage" />
+        <activity android:name=".Resetpasswordpage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Nzqa"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Homepage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Signuppage"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Kamar"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Questionspage"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Loginpage"
             android:screenOrientation="portrait">
             <intent-filter>
